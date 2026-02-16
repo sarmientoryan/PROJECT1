@@ -1,0 +1,123 @@
+html,
+body {
+  background: #70f573; /* Beccapurple */
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(121, 121, 244);
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5% 2.5% 0;
+  background: white;
+  line-height: 1.8;
+}
+h1 {
+  font:
+    1.6em Verdana,
+    Geneva,
+    sans-serif;
+  margin-bottom: 0.4em;
+  color: rgb(83, 104, 138);
+}
+h2 {
+  font:
+    3.2em Georgia,
+    "Times New Roman",
+    Times,
+    serif;
+  margin-bottom: 0.2em;
+}
+h3 {
+  font-size: 2.2em;
+}
+p {
+  margin-bottom: 1em;
+}
+a {
+  color: rgb(184, 126, 84);
+}
+a:hover {
+  color: rgb(120, 97, 55);
+}
+
+caption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+header h2 {
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid gray;
+}
+header p {
+  font-size: 1.3em;
+}
+dl {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-items: flex-start;
+}
+dt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  flex: 300px;
+}
+dt details {
+  width: 100%;
+}
+dt img {
+  display: block;
+  width: 300px;
+  height: 250px;
+}
+dt details p {
+  margin: 8px;
+  font-size: small;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 4em;
+  margin-top: 1em;
+}
+footer p {
+  font-style: bold;
+  font-size: 2em;
+}
+.flowRight {
+  float: right;
+  margin-left: 10px;
+}
+.flowLeft {
+  float: left;
+  margin-right: 10px;
+}
