@@ -121,3 +121,6 @@ footer p {
   float: left;
   margin-right: 10px;
 }
+span.ingredient {
+  color: red;
+}

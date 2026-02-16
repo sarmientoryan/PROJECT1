@@ -8,7 +8,7 @@
   <body>
     <header role="banner">
       <h1>Ryan Sarmiento</h1>
-      <h2>3. MCDONALDS</h2>
+      <h2 itemprop="brand">3. MCDONALDS</h2>
     </header>
     <main role="main">
       <article role="article">
@@ -19,10 +19,10 @@
               width="500"
               height="350"
               style="border: 0"
-              allowfullscreen=""
+              allowfullscreen="true"
               loading="lazy"
               class="flowRight"
-              referrerpolicy="no-referrer-when-downgrade"
+              r="no-referrer-when-downgrade"
             ></iframe>
             Mcdonalds is a go to. Fries hit when they need to but you can get
             unlucky and get some bland and soggy fries. Mcdonalds App is goated
@@ -43,10 +43,10 @@
                 width="300"
               />
               <details>
-                <summary>Chicken Nuggets</summary>
+                <summary tabindex="0">Chicken Nuggets</summary>
                 <p>
-                  All white meat Chicken Nuggets with no artificial
-                  preservatives!
+                  All <span class="ingredient">white meat</span> Chicken Nuggets
+                  with no artificial preservatives!
                 </p>
               </details>
             </dt>
@@ -58,10 +58,11 @@
                 width="300"
               />
               <details>
-                <summary>French Fries</summary>
+                <summary tabindex="0">French Fries</summary>
                 <p>
                   McDonald's World Famous Fries are made with premium potatoes
-                  such as the Russet Burbank and the Shepody.
+                  such as the <span class="ingredient">Russet Burbank</span> and
+                  the <span class="ingredient">Shepody</span>.
                 </p>
               </details>
             </dt>
@@ -73,10 +74,12 @@
                 width="300"
               />
               <details>
-                <summary>Fillet-O-Fish sandwich</summary>
+                <summary tabindex="0">Fillet-O-Fish sandwich</summary>
                 <p>
-                  A delicious fish sandwich made with wild-caught Alaskan
-                  Pollock, cheese & tartar sauce!
+                  A delicious fish sandwich made with
+                  <span class="ingredient"
+                    >wild-caught Alaskan Pollock, cheese & tartar sauce!</span
+                  >
                 </p>
               </details>
             </dt>
